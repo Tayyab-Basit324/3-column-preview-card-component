@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap');
+
+:root{
+    --Brightorange: hsl(31, 77%, 52%);
+    --Darkcyan: hsl(184, 100%, 22%);
+    --Verydarkcyan: hsl(179, 100%, 13%);
+    --Transparentwhite: hsla(0, 0%, 100%, 0.75);
+--Verylightgray: hsl(0, 0%, 95%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.card1{
+    background-color: var(--Brightorange);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.card2{
+    background-color: var(--Darkcyan);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.card3{
+    background-color: var(--Verydarkcyan);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.card1 h1{
+color: var(--Verylightgray);
+font-family: 'Big Shoulders Display', cursive;
+text-transform: uppercase;
+margin: 10px 10px 27px 0;
+}
+.card2 h1{
+    color: var(--Verylightgray);
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    margin: 10px 10px 27px 0;
+}
+.card3 h1{
+    color: var(--Verylightgray);
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    margin: 10px 10px 27px 0;
+}
+.card1 p{
+  
+    color: var(--Verylightgray);
+    font-size: 15px;
+    margin: 10px 30px 70px 0;
+    font-weight: 100;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    line-height: 24px;
+
+
+}
+.card2 p{
+   
+    color: var(--Verylightgray);
+    font-size: 15px;
+    margin: 10px 30px 70px 0;
+    font-weight: 100;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    line-height: 24px;
+
+}
+.card3 p{
+    
+    color: var(--Verylightgray);
+    font-size: 15px;
+    margin: 10px 30px 70px 0;
+    font-weight: 100;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    line-height: 24px;
+}
+ .card1 .img1{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -148px;
+}
+.card2 .img2{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -148px;
+}
+.card3 .img3{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -148px;
+}
+.card1 button{
+    padding: 10px;
+    width: 50%;
+    border-radius: 25px;
+    border:  none;
+    background-color: var(--Transparentwhite);
+    color: var(--Brightorange);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin-right: 70px;
+}
+.card2 button{
+    padding: 10px;
+    width: 50%;
+    border-radius: 25px;
+    border:  none;
+    background-color: var(--Transparentwhite);
+    color: var(--Darkcyan);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin-right: 70px;
+}
+.card3 button{
+    padding: 10px;
+    width: 50%;
+    border-radius: 25px;
+    border:  none;
+    background-color: var(--Transparentwhite);
+    color: var(--Verydarkcyan);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin-right: 70px;
+}
